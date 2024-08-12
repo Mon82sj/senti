@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.heading-1{
+  text-align: center;
+  color:rgb(248, 236, 183);
+  text-shadow:1px 2px 5px rgb(255, 0, 98);
+  padding-top:2vw;
+  font-family: 'Chakra Petch', sans-serif;
+  text-transform: uppercase;
+  font-size: 4vw;
+}
+
+.pheading-1{
+  margin-top: 1vw;
+  font-family: 'Chakra Petch', sans-serif;
+  color:rgb(255, 0, 98);
+}
+
+.heading-2{
+  text-align: center;
+  color:rgb(255, 0, 98);
+  font-family: 'Chakra Petch', sans-serif;
+  text-transform: uppercase;
+  top:1vw;
+  position: relative;
+}
+
+.menu-bar:not(.nav,.Logo){
+  padding:2vw;
+  padding-top: -5vw;
+  border-radius: 0.9vw;
+  position:relative;
+  overflow-x: hidden;
+  background-size: 100%;
+  font-weight: bolder;
+  text-transform: uppercase;
+  padding-left: 60%;
+}
+
+hr{
+  color:rgb(255, 0, 98);
+  background-color: rgb(255, 0, 98);
+}
+
+.menu-bar>button{
+  margin-left:0.6vw;
+  padding:1vw;
+  font-family: 'Chakra Petch', sans-serif;
+  color:rgb(255, 0, 98);
+  border: none;
+  font-size: large;
+  background-color: transparent;
+  font-weight: bold;
+  text-align: right;
+  text-transform:capitalize;
+}
+
+.Front-button{
+  margin-left:2vw;
+  padding:2vw;
+  color:rgb(255, 0, 98);
+  border: none;
+  background-color:white;
+  margin-top:1vw;
+  font-size: 2vw;
+  font-weight: bold;
+  text-align: right;
+  border-radius: 0.9vw;;
+  text-transform:capitalize;
+}
+
+.Front-button:hover{
+  color:white;
+  font-family: 'Chakra Petch', sans-serif;
+  background-color: rgb(255, 0, 98);
+  border:0.1vw solid rgb(255, 0, 98);
+}
+
+.menu-bar>button:hover{
+  background-color:rgb(255, 0, 98);
+  font-family: 'Chakra Petch', sans-serif;
+  color:white;
+}
+
+.about-description{
+  text-transform: capitalize;
+  font-size: medium;
+  padding-inline: 2vw;
+  margin-top: 0%;
+  font-family: 'Chakra Petch', sans-serif;;
+  line-height:1.4vw;
+  text-align: justify;
+  background-color: transparent;
+  color:rgb(255, 0, 98);
+}
+
+.contact-description{
+  text-transform: capitalize;
+  font-size: medium;
+  font-family: 'Chakra Petch', sans-serif;
+  margin-top: 4vw;
+}
+
+.emotions{
+  width:30vw;
+  height:42vw;
+  border-radius: 1vw;;
+}
+
+.App{
+  height:42.2vw;
+  font-family: 'Chakra Petch', sans-serif;
+  width:62vw;
+  margin-left:0.7vw;
+  top:-1.5vw;
+  position : relative;
+  border-radius: 0.9vw;
+  box-shadow: 0.5vw 0.7vw 3vw rgb(139, 134, 134);
+  background-image: radial-gradient(circle, rgb(248, 236, 183),rgb(253, 136, 181));
+}
+
+.Logo{
+  width: 3.6vw;
+  height: 3.6vw;
+  position: relative;
+  overflow-x: hidden;
+  margin-left:-305%;
+  padding-right: 290%;;
+  left:143%;
+  top:0.1vw;
+}
+
+textarea{
+  border:none;
+  border-radius:0.8vw;
+  background-color:transparent;
+  font-size:medium;
+  color:rgb(255, 0, 98);
+  border:0.2vw solid rgb(255, 0, 98);
+  box-shadow: 0.2vw 0.5vw 1vw rgb(255, 0, 98);
+}
+
+::placeholder{
+  color:rgb(255, 0, 98);
+  background-color: transparent;
+  font-size: medium;
+  padding-top: 0.5vw;
+}
+
+::selection{
+  color:rgb(255, 0, 98);
+  background-color:transparent;
+  border: none;
+}
+
+.nav{
+  color: rgb(248, 236, 183);
+  text-shadow:4px 3px rgb(255, 0, 98);
+  margin-left: -55%;
+  top:0.5vw ;
+  position: absolute;
+  line-height: 0.9vw;
+  font-size: 3vw;
+}
+
+.button{
+  padding:1vw;
+  border-radius: 0.4vw;
+  color:white;
+  border: none;
+  background-color: rgb(255, 0, 98);
+  font-weight: 20vw;
+  text-transform: uppercase;
+}
+
+.Quote-1{
+  background-color: rgb(255, 0, 98);
+  color:rgb(248, 236, 183);
+  padding:20px;
+  padding-inline:20px;
+  width:max-content;
+  height:max-content;
+  line-height: 3vw;;
+  border-radius: 0.9vw;
+  align-items: center;
+  text-align: center;
+  margin-left:2%;
+  box-shadow: 2vw 2vw 8vw grey;
+}
+
+.button:hover{
+  background-color:white;
+  color:rgb(255, 0, 98);
+  border:solid rgb(255, 0, 98)
+}
+
+html:not(.App){
+  background-color: rgb(248, 236, 183);
+  font-family: 'Chakra Petch', sans-serif;
+}
+
+.left{
+  color:grey;
+  font-weight: bold;
+  font-family: 'Chakra Petch', sans-serif;
+  text-transform: uppercase;
+  font-size:medium;
+}
+
+p{
+  color:rgb(255, 0, 98);
+  font-weight: bold;
+  position: relative;
+  line-height: 0.5vw;
+  font-family: 'Chakra Petch', sans-serif;
+  text-transform: uppercase;
+  font-size:medium;
+}

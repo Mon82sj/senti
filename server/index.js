@@ -5,15 +5,8 @@ const app = express();
 const cors = require('cors');
 const vader = require('vader-sentiment');
 
-// // // Serve the static files from the React app
-// app.use("/",(req,res)=>{
-//   res.send ("server is running.");
-// });
-
-// // app.listen(5000,console.log("Server is running on port 5000"));
-// Handle any requests that don't match the static files
 app.get('*', (req, res) => {
-  //res.sendFile(path.join(__dirname + '/client/src/App.js'));
+  res.sendFile(path.join(__dirname + '/index.js'));
 });
 
 const port = process.env.PORT || 5000;
@@ -21,13 +14,6 @@ app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
 });
 
-
-// const port = 5000;
-// app.listen(port, () => {
-//   console.log(`Server running on port ${port}`);
-// });
-
-// const app = express();
 app.use(cors());
 app.use(bodyParser.json());
 

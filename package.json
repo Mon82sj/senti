@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Mon82sj/senti/issues"
   },
-  "homepage": "https://github.com/Mon82sj/senti#readme"
+  "homepage": "https://github.com/Mon82sj/senti#readme",
+  "dependencies": {
+    "path-browserify": "^1.0.1"
+  }
 }

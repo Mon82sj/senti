@@ -90,7 +90,7 @@ hr{
   text-transform: capitalize;
   font-size: medium;
   padding-inline: 2vw;
-  margin-top: 0%;
+  margin-top: -3vw;
   font-family: 'Chakra Petch', sans-serif;;
   line-height:1.4vw;
   text-align: justify;
@@ -103,6 +103,7 @@ hr{
   font-size: medium;
   font-family: 'Chakra Petch', sans-serif;
   margin-top: 4vw;
+  line-height:2vw;
 }
 
 .emotions{
@@ -215,7 +216,7 @@ p{
   color:rgb(255, 0, 98);
   font-weight: bold;
   position: relative;
-  line-height: 0.5vw;
+  line-height: 1.5vw;
   font-family: 'Chakra Petch', sans-serif;
   text-transform: uppercase;
   font-size:medium;

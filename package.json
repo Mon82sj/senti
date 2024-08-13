@@ -1,0 +1,23 @@
+{
+  "name": "senti",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mon82sj/senti.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mon82sj/senti/issues"
+  },
+  "homepage": "https://github.com/Mon82sj/senti#readme",
+  "dependencies": {
+    "path-browserify": "^1.0.1"
+  }
+}

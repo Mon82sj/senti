@@ -11,9 +11,9 @@ function App() {
   };
 
   const analyzeSentiment = async () => {
-    const API_URL = process.env.REACT_APP_API_URL || 'https://senti-4245-server.vercel.app/analyze'
+    const API_URL = process.env.REACT_APP_API_URL || 'https://senti-4245-server.vercel.app/analyze';
     try {
-      const response = await fetch('API_URL', {
+      const response = await fetch(API_URL, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -32,6 +32,7 @@ function App() {
       setError('Error analyzing sentiment');
     }
   };
+  
 
   // Function to render the active page content
   const renderContent = () => {

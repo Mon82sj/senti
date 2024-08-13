@@ -12,7 +12,7 @@ function App() {
 
   const analyzeSentiment = async () => {
     try {
-      const response = await fetch('http://localhost:5000/analyze', {
+      const response = await fetch('https://senti-4245-server.vercel.app/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

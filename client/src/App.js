@@ -11,8 +11,9 @@ function App() {
   };
 
   const analyzeSentiment = async () => {
+    const API_URL = process.env.REACT_APP_API_URL || 'https://senti-4245-server.vercel.app/analyze'
     try {
-      const response = await fetch('https://senti-4245-server.vercel.app/', {
+      const response = await fetch('API_URL', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

@@ -1,5 +1,9 @@
 import React, { useState } from 'react';
 import './App.css';
+import App from "./App";
+ReactDOM.render(
+  <React.StrictMode><App/></React.StrictMode>,document.getElementById('root')
+);
 
 function App() {
   const [text, setText] = useState('');

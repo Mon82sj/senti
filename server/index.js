@@ -5,9 +5,9 @@ const app = express();
 const cors = require('cors');
 const vader = require('vader-sentiment');
 
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(__dirname + '/index.js'));
-// });
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname + '/index.js'));
+});
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {

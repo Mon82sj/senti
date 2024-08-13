@@ -5,9 +5,9 @@ const app = express();
 const cors = require('cors');
 const vader = require('vader-sentiment');
 
-app.get('https://senti-o9oh-client.vercel.app/', (req, res) => {
-  res.sendFile(path.join(__dirname + '/index.js'));
-});
+// app.get('https://senti-o9oh-client.vercel.app/', (req, res) => {
+//   res.sendFile(path.join(__dirname + '/index.js'));
+// });
 
 const port = process.env.PORT || 5000;
 app.listen(port, () => {
@@ -17,7 +17,7 @@ const corsOptions={
   origin:'https://senti-o9oh-client.vercel.app',
   optionSuccessStatus:200,
 };
-app.use(cors());
+app.use(cors(corsOptions));
 app.use(bodyParser.json());
 
 // Function to validate if the input text contains only numbers

@@ -218,3 +218,12 @@ p{
   text-transform: uppercase;
   font-size:medium;
 }
+
+.contact-description{
+  color:rgb(255, 0, 98);
+  font-weight: bold;
+  position: relative;
+  line-height: 1.5vw;
+  font-family: 'Chakra Petch', sans-serif;
+  font-size:medium; 
+}

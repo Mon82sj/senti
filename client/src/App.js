@@ -69,7 +69,6 @@ function App() {
             <h2 className="heading-2">Contact Us</h2>
             <p className='contact-description'>If you have any questions, feel free to reach out to us at support@sentimentanalysis.com.</p>
             <br/>
-            <p></p>
           </div>
         );
       case 'about':

@@ -74,7 +74,7 @@ function App() {
       case 'about':
         return (
           <div >
-            <h2 className="heading-2">About Us</h2><br />
+            <h2 className="heading-2">About </h2><br />
             <p className='about-description'>
 Welcome to Emo, your go-to platform for advanced sentiment analysis.
 We are passionate about helping individuals and businesses understand 
